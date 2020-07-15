@@ -25,13 +25,24 @@ a:active{
     color: green;
 }
 a:visited{
-    color: black;
+    
 }
 .container{
     width: 88%;
     margin: auto;
 }
 
+.button{
+    background-color: #333;
+    color: #fff;
+    padding:10px 15px;
+    border:none;
+    border-radius: 0.5em;
+}
+.button:hover{
+    background: red;
+    color: #ffffff;
+}
 .box-1{
     background-color: #333;
     color: white;
@@ -58,4 +69,36 @@ a:visited{
     border: 3px dotted #ccc;
     padding: 20px;
     margin: 20px 0;
+}
+.categories {
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+.categories h2 {
+    text-align: center;
+}
+.categories ul {
+    padding: 0;
+    padding-left: 20px;
+    list-style: square;
+    list-style: none;
+}
+.categories li {
+    padding-bottom: 8px;
+    border-bottom: dotted 1px #333;
+    list-style-image: url('../images/check.png');
+}
+.my-form{
+    padding:20px;
+}
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+.my-form label {
+    display: block;
+}
+.my-form input[type="text"], .my-form textarea {
+    padding:8px;
+    width: 100%;
 }
