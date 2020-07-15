@@ -132,6 +132,10 @@ a:visited{
     border: 1px solid #000;
     margin-top: 30px;
     position: relative;
+    background-image: url(../images/bgimage.jpg);
+    background-position: 100px 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 .p-box h1{
     position: absolute;
@@ -142,4 +146,8 @@ a:visited{
     position: absolute;
     bottom: 40px;
     right: 100px;
+}
+.fix-me{
+    position: fixed;
+    top: 400px;
 }
